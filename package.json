@@ -1,0 +1,15 @@
+{
+  "name": "stronghold",
+  "version": "1.0.0",
+  "author": "",
+  "description": "2d isometric strategy demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/esbuild index.ts --bundle --outfile=index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.11"
+  }
+}
