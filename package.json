@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/esbuild index.ts --bundle --outfile=index.js"
+    "build": "./node_modules/.bin/esbuild index.ts --bundle --sourcemap --outfile=index.js",
+    "watch": "./node_modules/.bin/esbuild index.ts --watch --bundle --sourcemap --outfile=index.js"
   },
   "license": "MIT",
   "devDependencies": {
