@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/esbuild index.ts --bundle --sourcemap --outfile=index.js",
-    "watch": "./node_modules/.bin/esbuild index.ts --watch --bundle --sourcemap --outfile=index.js"
+    "watch": "./node_modules/.bin/esbuild index.ts --watch --bundle --sourcemap --outfile=index.js",
+    "build-win": ".\\node_modules\\.bin\\esbuild.cmd index.ts --bundle --sourcemap --outfile=index.js",
+    "watch-win": ".\\node_modules\\.bin\\esbuild.cmd index.ts --watch --bundle --sourcemap --outfile=index.js"
   },
   "license": "MIT",
   "devDependencies": {
